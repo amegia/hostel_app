@@ -1,0 +1,7 @@
+class LanguagesController < ApplicationController
+  def index
+    def whatever_view_this_is
+      @english_navigation  = true
+    end
+  end
+end

@@ -3,14 +3,26 @@
     <div class="container">
       <%= link_to "Gorditos Hostel", root_path, id: "logo" %>
       <nav>
-        <ul class="nav pull-right">
-          <li><%= link_to "Home",    english_home_path %></li>
-          <li><%= link_to "Location",    english_location_path %></li>
-          <li><%= link_to "Hostel",    english_hostel_path %></li>
-          <li><%= link_to "Rooms", english_rooms_path %></li>
-          <li><%= link_to "Prices and Bookings",    english_prices_book_path %></li>
-          <li><%= link_to "Contact Us",    english_contact_path %></li>
-        </ul>
+        <% if @english_navigation %>
+          <ul class="nav pull-right">
+            <li><%= link_to "Home",    english_home_path %></li>
+            <li><%= link_to "Location",    english_location_path %></li>
+            <li><%= link_to "Hostel",    english_hostel_path %></li>
+            <li><%= link_to "Rooms", english_rooms_path %></li>
+            <li><%= link_to "Prices and Bookings",    english_prices_book_path %></li>
+            <li><%= link_to "Contact Us",    english_contact_path %></li>
+          </ul>
+	<% end %>
+	<% if @greek_navigation%>
+          <ul class="nav pull-right">
+            <li><%= link_to "Αρχική",    english_home_path %></li>
+            <li><%= link_to "Τοποθεσία",    english_location_path %></li>
+            <li><%= link_to "Ξενώνα",    english_hostel_path %></li>
+            <li><%= link_to "Δωμάτια", english_rooms_path %></li>
+            <li><%= link_to "Τιμές και Κρατήσεις",    english_prices_book_path %></li>
+            <li><%= link_to "Επικοινωνήστε μαζί μας",    english_contact_path %></li>
+          </ul>
+        <% end %>
       </nav>
     </div>
   </div>
