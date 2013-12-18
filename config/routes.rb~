@@ -1,5 +1,4 @@
 HostelApp::Application.routes.draw do
-  match '/', to: 'index', via: 'get'
   match 'english/home', to: 'english#home', via: 'get'
   match 'english/location', to: 'english#location', via: 'get'
   match 'english/hostel', to: 'english#hostel', via: 'get'
