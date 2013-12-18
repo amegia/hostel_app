@@ -1,4 +1,10 @@
 HostelApp::Application.routes.draw do
+  get "english/home"
+  get "english/location"
+  get "english/hostel"
+  get "english/rooms"
+  get "english/prices_book"
+  get "english/Contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
