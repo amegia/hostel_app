@@ -12,6 +12,7 @@
             <li><%= link_to "Prices and Bookings",    english_prices_book_path %></li>
             <li><%= link_to "Contact Us",    english_contact_path %></li>
           </ul>
+	<% end %>
 	<% if @greek_navigation%>
           <ul class="nav pull-right">
             <li><%= link_to "Αρχική",    english_home_path %></li>

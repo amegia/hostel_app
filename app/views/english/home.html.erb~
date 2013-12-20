@@ -13,4 +13,37 @@
   <%= link_to "Contact us now!", 'contact', class: "btn btn-large btn-primary" %>
 </div>
 
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-caption">
+      <h1>COMING SOON!</h1>
+      <p class="lead">We're busy doing some 'market research'!</p>
+      <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+    </div>
+    <div class="item active">
+      <img src="images/fondo_crete.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/SAM_1649.JPG" alt="">
+    </div>
+    <div class="item">
+      <img src="images/SAM_1758.JPG" alt="">
+    </div>
+    <div class="item">
+      <img src="images/SAM_1689.JPG" alt="">
+    </div>
+    <div class="item">
+      <img src="images/SAM_1703.JPG" alt="">
+    </div>
+    <div class="item">
+      <img src="images/SAM_1722.JPG" alt="">
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+<!-- /.carousel -->
+
+
 

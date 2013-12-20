@@ -1,6 +1,6 @@
 class EnglishController < ApplicationController
   def home
-    @english_navigation  = true
+    @greek_navigation  = true
   end
 
   def location

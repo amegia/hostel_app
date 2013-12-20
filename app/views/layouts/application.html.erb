@@ -5,6 +5,13 @@
     <%= stylesheet_link_tag "application", media: "all",
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+<script>
+$(function(){
+$('#myCarousel').carousel();
+});
+</script>
+
     <%= csrf_meta_tags %>
     <%= render 'layouts/shim' %>
   </head>
@@ -14,6 +21,13 @@
       <%= yield %>
       <%= render 'layouts/footer' %>
     </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../docs-assets/js/holder.js"></script>
   </body>
 </html>
 
